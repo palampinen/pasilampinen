@@ -71,9 +71,6 @@ body {
 
   text-align: left;
   background-color: #FFFFFF;
-
-  animation: enter-to-building 0.3s ease 0s;
-  animation-fill-mode: forwards;
 }
 
 .image, .image img {
@@ -158,6 +155,9 @@ body {
   }
 
   .card {
+    animation: enter-to-building 0.3s ease 0s;
+    animation-fill-mode: forwards;
+
     max-width: 440px;
     box-shadow: 0 20px 30px rgba(40, 25, 86, 0.075);
   }
